@@ -1,5 +1,5 @@
 const expect = require('expect');
-const request = require('request');
+const request = require('supertest');
 const {ObjectID} = require('mongodb');
 
 const {app} = require('./../server');
